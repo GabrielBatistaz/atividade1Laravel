@@ -14,10 +14,10 @@ class PostSeeder extends Seeder
     public function run(): void
     {
         DB::table('post')->insert([
-            'PostTitle'=>'Como Sonegar Imposto',
-            'Author'=>'Pablo Marçal',
+            'PostTitle'=>'O que é o que?',
+            'Author'=>'Pablo ',
             'PublicationDate'=>'2020-12-25',
-            'Content'=>'Explicação do método aplicado de Como Sonegar Imposto',
+            'Content'=>'Explicação do método aplicado',
             'Tags'=>'Coach'
         ]);
     }

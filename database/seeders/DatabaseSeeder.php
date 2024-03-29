@@ -16,7 +16,8 @@ class DatabaseSeeder extends Seeder
        $this->call([
         AlunoSeeder::class,
         PostSeeder::class,
-        BibliotecaSeeder::class
+        BibliotecaSeeder::class,
+        ContactSeeder::class
        ]);
     }
 }
